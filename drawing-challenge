@@ -1,0 +1,253 @@
+from shapes import Rectangle, Triangle, Oval, Paper
+#mario mushroom based on 16x16 grid
+paper = Paper()
+
+white1 = Rectangle()
+white1.set_width(600)
+white1.set_height(600)
+white1.set_color("white")
+white1.set_x(0)
+white1.set_y(0)
+white1.draw()
+
+red1 = Rectangle()
+red2 = Rectangle()
+red3 = Rectangle()
+red4 = Rectangle()
+
+red1.set_width(90)
+red1.set_height(90)
+red1.set_color("red")
+red1.set_x(120)
+red1.set_y(120)
+red1.draw()
+
+red2.set_width(90)
+red2.set_height(90)
+red2.set_color("red")
+red2.set_x(390)
+red2.set_y(120)
+red2.draw()
+
+red3.set_width(180)
+red3.set_height(120)
+red3.set_color("red")
+red3.set_x(210)
+red3.set_y(90)
+red3.draw()
+
+red4.set_width(14*30)
+red4.set_height(180)
+red4.set_color("red")
+red4.set_x(90)
+red4.set_y(210)
+red4.draw()
+
+white2 = Oval()
+white3 = Oval()
+white4 = Oval()
+white5 = Oval()
+white6 = Oval()
+
+white2.set_width(120)
+white2.set_height(120)
+white2.set_color("white")
+white2.set_x(90)
+white2.set_y(90)
+white2.draw()
+
+white3.set_width(240)
+white3.set_height(240)
+white3.set_color("white")
+white3.set_x(325)
+white3.set_y(-30)
+white3.draw()
+
+white4.set_width(120)
+white4.set_height(120)
+white4.set_color("white")
+white4.set_x(30)
+white4.set_y(270)
+white4.draw()
+
+white5.set_width(160)
+white5.set_height(150)
+white5.set_color("white")
+white5.set_x(200)
+white5.set_y(180)
+white5.draw()
+
+white6.set_width(120)
+white6.set_height(120)
+white6.set_color("white")
+white6.set_x(390)
+white6.set_y(240)
+white6.draw()
+
+
+'''
+line1 = Rectangle()
+line1.set_width(1)
+line1.set_height(600)
+line1.set_color("black")
+line1.set_x(5)
+line1.set_y(0)
+line1.draw()
+'''
+
+black1 = Rectangle()
+black2 = Rectangle()
+black3 = Rectangle()
+black4 = Rectangle()
+black5 = Rectangle()
+black6 = Rectangle()
+black7 = Rectangle()
+black8 = Rectangle()
+black9 = Rectangle()
+black10 = Rectangle()
+black11 = Rectangle()
+black12 = Rectangle()
+black13 = Rectangle()
+black14 = Rectangle()
+black15 = Rectangle()
+black16 = Rectangle()
+black17 = Rectangle()
+black18 = Rectangle()
+black19 = Rectangle()
+
+black1.set_width(180)  #6x30
+black1.set_height(30)
+black1.set_color("black")
+black1.set_x(210) #column 6
+black1.set_y(60) #row 1
+black1.draw()
+
+black2.set_width(60)
+black2.set_height(30)
+black2.set_color("black")
+black2.set_x(150) #column 4
+black2.set_y(90) #row 2
+black2.draw()
+
+black3.set_width(60)
+black3.set_height(30)
+black3.set_color("black")
+black3.set_x(390) #column 12
+black3.set_y(90) #row 2
+black3.draw()
+
+black4.set_width(30)
+black4.set_height(30)
+black4.set_color("black")
+black4.set_x(120) #column 3
+black4.set_y(120) #row 3
+black4.draw()
+
+black5.set_width(30)
+black5.set_height(30)
+black5.set_color("black")
+black5.set_x(450) #column 14
+black5.set_y(120) #row 3
+black5.draw()
+
+black6.set_width(30)
+black6.set_height(60)
+black6.set_color("black")
+black6.set_x(90) #column 2
+black6.set_y(150) #row 4
+black6.draw()
+
+black7.set_width(30)
+black7.set_height(60)
+black7.set_color("black")
+black7.set_x(480) #column 15
+black7.set_y(150) #row 4
+black7.draw()
+
+black8.set_width(30)
+black8.set_height(180)
+black8.set_color("black")
+black8.set_x(60) #column 1
+black8.set_y(210) #row 6
+black8.draw()
+
+black9.set_width(30)
+black9.set_height(180)
+black9.set_color("black")
+black9.set_x(510) #column 16
+black9.set_y(210) #row 6
+black9.draw()
+
+black10.set_width(8*30)
+black10.set_height(30)
+black10.set_color("black")
+black10.set_x(180) #column 5
+black10.set_y(360) #row 11
+black10.draw()
+
+black11.set_width(90)
+black11.set_height(30)
+black11.set_color("black")
+black11.set_x(90) #column 2
+black11.set_y(390) #row 12
+black11.draw()
+
+black12.set_width(90)
+black12.set_height(30)
+black12.set_color("black")
+black12.set_x(420) #column 13
+black12.set_y(390) #row 12
+black12.draw()
+
+black13.set_width(30)
+black13.set_height(60)
+black13.set_color("black")
+black13.set_x(240) #column 7
+black13.set_y(390) #row 12
+black13.draw()
+
+black14.set_width(30)
+black14.set_height(60)
+black14.set_color("black")
+black14.set_x(330) #column 10
+black14.set_y(390) #row 12
+black14.draw()
+
+black15.set_width(30)
+black15.set_height(60)
+black15.set_color("black")
+black15.set_x(120) #column 3
+black15.set_y(420) #row 13
+black15.draw()
+
+black16.set_width(30)
+black16.set_height(60)
+black16.set_color("black")
+black16.set_x(450) #column 14
+black16.set_y(420) #row 13
+black16.draw()
+
+black17.set_width(30)
+black17.set_height(30)
+black17.set_color("black")
+black17.set_x(150) #column 4
+black17.set_y(480) #row 15
+black17.draw()
+
+black18.set_width(30)
+black18.set_height(30)
+black18.set_color("black")
+black18.set_x(420) #column 13
+black18.set_y(480) #row 15
+black18.draw()
+
+black19.set_width(240)
+black19.set_height(30)
+black19.set_color("black")
+black19.set_x(180) #column 5
+black19.set_y(510) #row 16
+black19.draw()
+
+
+
+paper.display()
