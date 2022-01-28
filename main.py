@@ -233,9 +233,9 @@ kitchen = Room("Kitchen")
 ballroom = Room("Ballroom")
 dining_hall = Room("Dining Hall")
 
-kitchen.set_description("The domain of a woman")
-ballroom.set_description("Where the undeserving frolic")
-dining_hall.set_description("Gluttons abound")
+kitchen.set_description("You can see this place is kept in good order")
+ballroom.set_description("Time for a dance")
+dining_hall.set_description("Let's eat!")
 
 kitchen.link_room(dining_hall, "south")
 dining_hall.link_room(kitchen, "north")
